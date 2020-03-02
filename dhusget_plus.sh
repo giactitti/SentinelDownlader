@@ -129,7 +129,7 @@ function print_usage
  echo "   				  Sentinel-2 posiible option is: S2MSI1C ;"
  echo "   				  Sentinel-5 P possible options are:  RA, IR, O3, NO2, CO, CLOUD, AER and NP. "
  echo " "
- echo "   -Q <relative orbit>		: relative orbit. Possible options are: 1,2,...,175);"
+ echo "   -Q <relative orbit>		: relative orbit. Possible options are: 1,2,...,175;"
  echo " "
  echo "   -F <free OpenSearch query>	: free text OpenSearch query. The query must be written enclosed by single apexes '<query>'. "
  echo "   				  (e.g. -F 'platformname:Sentinel-1 AND producttype:SLC'). "
