@@ -632,7 +632,7 @@ if [ -z $ORBIT ]; then
 	echo "'-Q option' not specified. Search is performed on all available orbit types. "
         echo ""
 else
-        echo "'-Q option' product type is set to $ORBIT. "
+        echo "'-Q option' orbit number is set to $ORBIT. "
         echo ""
 fi
 if [ ! -z $FREE_SUBQUERY_CHECK ]; then
@@ -656,10 +656,10 @@ else
         echo ""
 fi
 if [ -z $NAMEFILERESULTS ]; then
-	echo "'-Q option' not specified. OpenSearch results are stored by default in ./OSquery-result.xml. "
+	echo "'-Q option' not specified. All possible orbits are stored "
         echo ""
 else
-        echo "'-Q option' is set to $NAMEFILERESULTS. OpenSearch results are stored in $NAMEFILERESULTS. "
+        echo "'-Q option' is set to $ORBIT. Only products on orbit $ORBIT are stored "
         echo ""
 fi
 if [ -z $PRODUCTLIST ]; then
